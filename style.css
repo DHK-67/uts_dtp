@@ -1,57 +1,17 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    background-color: #f9f9f9;
+    background-color: #f4f6f9;
 }
 
-h1, h2 {
-    color: #333;
+header {
+    background-color: #0d6efd;
 }
 
-.pesan-error {
-    color: red;
-    font-weight: bold;
+.card {
+    border: none;
+    border-radius: 8px;
 }
 
-.pesan-sukses {
-    color: green;
-    font-weight: bold;
-}
-
-form {
-    background: #fff;
-    padding: 15px;
-    border: 1px solid #ccc;
-    max-width: 600px;
-    margin-bottom: 20px;
-}
-
-form p {
-    margin-bottom: 10px;
-}
-
-input[type="text"], select, textarea {
-    width: 100%;
-    padding: 6px;
-    box-sizing: border-box;
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    background: #fff;
-    margin-top: 10px;
-}
-
-table, th, td {
-    border: 1px solid #ccc;
-}
-
-th, td {
-    padding: 8px;
-    text-align: left;
-}
-
-th {
-    background-color: #eee;
+.table th {
+    background-color: #f8f9fa;
+    font-weight: 600;
 }
